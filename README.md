@@ -44,6 +44,23 @@ docker build -t movierec:latest -f Dockerfile .
 docker run -it -p 8000:8000 movierec:latest
 
 ```
+## Explore container
+
+Open new terminal window & ```docker ps``` & copy container id
+
+docker ```docker exec -ti YOURCONTAINERID /bin/bash```
+
+```./movies_data.duckdb```
+
+Explore the database
+
+
+## Navigate to Browser
+
+Navigate to ```http://localhost:8000``` in browser
+
+Navigate to ```http://localhost:8000/docs``` in browser
+
 
 ## Set up - one step at a time
 
